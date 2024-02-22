@@ -10,7 +10,7 @@ export class BasicLoginComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    document.querySelector('body').setAttribute('themebg-pattern', 'theme1');
+    // document.getElementById('body').setAttribute('themebg-pattern', 'theme1');
   }
 
 }
